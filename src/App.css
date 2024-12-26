@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: fixed center url("/src/assets/bg-lines.png") no-repeat;
+    background-color: #FFF9C4;
+  }
+  
+  * {
+    font-family: "Jolly Lodger", serif;
+  }
+  
+  .poppins {
+    font-family: "Poppins", serif;
+  }
+  .hero {
+    position: relative;
+    min-height: 100vh;
+    background: top center url("src/assets/hero-bg.png") no-repeat;
+    margin: 0;
+    padding: 0;
+  }
+  .dark{
+    color: #4E342E;
+  }
+  .kavoon{
+    font-family: "Kavoon", serif;
+}
+.bdr {
+    border: solid #4E342E;
+    border-top-width: 0.2px;
+    border-left-width: 0.2px;
+    border-bottom-width: 4px;
+    border-right-width: 4px;
+}
