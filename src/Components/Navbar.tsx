@@ -42,7 +42,7 @@ export default function Navbar() {
   return (
     <nav className="w-[100%] p-2">
       <div className="px-6 w-[90%] bg-[#FFFDD0] mx-auto rounded-full border-black border-t-1 border-b-2 border-r-2 border-l-1  mt-4 py-4 flex justify-between items-center">
-        <h1 className='dark text-3xl kavoon'>WiggleWorm</h1>
+        <h1 className='dark md:text-3xl text-2xl kavoon'>WiggleWorm</h1>
         <ul className="hidden md:flex justify-around items-center dark gap-14 mr-12  text-2xl">
           {menuItems.map((item) => (
             <li
@@ -54,7 +54,7 @@ export default function Navbar() {
           ))}
         </ul>
 
-        <div className={`md:hidden absolute top-4 right-4 flex justify-end z-[51] transition-transform duration-300 ${!show && 'transform -translate-y-full'}`}>
+        <div className={`md:hidden absolute top-10 right-10 flex justify-end z-[51] transition-transform duration-300 ${!show && 'transform -translate-y-full'}`}>
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="text-gray-800 fixed hover:text-gray-600 focus:outline-none"
