@@ -1,5 +1,6 @@
 import Navbar from "./Navbar";
 import snake from "../assets/snake.png"
+import top from "../assets/top.png"
 
 export default function Hero() {
     return (
@@ -14,7 +15,7 @@ export default function Hero() {
           <img src={snake} alt="" width={70} />
         </div>
         <div className="z-0 relative">
-          <img src="/src/assets/top.png" className="absolute top-0 right-0" alt="" />
+          <img src={top} className="absolute top-0 right-0" alt="" />
         </div>
         <div className="z-10 relative mx-auto">
           <Navbar />
