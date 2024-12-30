@@ -17,7 +17,7 @@ body {
   .hero {
     position: relative;
     min-height: 100vh;
-    background: top url("src/assets/hero-bg.png") no-repeat;
+    background: top url("/src/assets/hero-bg.png") no-repeat;
     margin: 0;
     padding: 0;
   }
