@@ -28,7 +28,7 @@ export default function Hero() {
             <button className="bg-[#FFA500] border-black border-t-1 border-b-2 border-r-2 border-l-1  text-white rounded-full md:py-2 py-3 md:px-4 px-12 text-xl">Get WiggleWorm Now</button>
 
         </div>
-        <div className="relative h-[300px]">
+        <div className="relative h-[300px] overflow-hidden">
         <div className="twosnakes absolute -bottom-8 md:left-[50%] md:translate-x-[-40%] md:w-[40%] flex gap-0 mx-auto">
           <img src={snake} width={200} className="" alt="" />
           <img src={snake} width={200} className="scale-x-[-1]" alt="" />
